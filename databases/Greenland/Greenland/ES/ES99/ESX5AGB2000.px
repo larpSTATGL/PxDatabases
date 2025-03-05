@@ -1,0 +1,150 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20130416 09:00";
+NEXT-UPDATE="20190727 09:00";
+MATRIX="ESX5AGB2000";
+AGGREGALLOWED=YES;
+AUTOPEN=NO;
+SUBJECT-CODE="ES";
+SUBJECT-AREA="Businesses";
+SUBJECT-AREA[da]="Erhverv";
+SUBJECT-AREA[kl]="Inuussutissarsiorneq";
+COPYRIGHT=YES;
+DESCRIPTION="Number of businesses by municipality, (DISCONTINUED)";
+DESCRIPTION[da]="Antal virksomheder efter kommune, (AFSLUTTET)";
+DESCRIPTION[kl]="Suliffeqarfiit amerlassusaat by kommune, (NAAVOQ)";
+TITLE="Number of businesses by interval of aggregate salaries and shares, "
+"calculation variable and time";
+TITLE[da]="Antal virksomheder efter lønsumsinterval, opgørelsesvariabel og tid";
+TITLE[kl]="Suliffeqarfiit amerlassusaat kingorna akissarsialiussaqassuseq, "
+"naatsorsuusiussaq aamma piffissaq";
+CONTENTS="Number of businesses";
+CONTENTS[da]="Antal virksomheder";
+CONTENTS[kl]="Suliffeqarfiit amerlassusaat";
+UNITS="Number of businesses";
+UNITS[da]="Antal virksomheder";
+UNITS[kl]="Suliffeqarfiit amerlassusaat";
+CONTACT="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[da]="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[kl]="Najaaraq Christiansen, nakr@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+STUB="time","municipality";
+STUB[da]="tid","kommune";
+STUB[kl]="piffissaq","kommune";
+HEADING="calculation variable","interval of aggregate salaries and shares";
+HEADING[da]="opgørelsesvariabel","lønsumsinterval";
+HEADING[kl]="naatsorsuusiussaq","akissarsialiussaqassuseq";
+CONTVARIABLE="calculation variable" ;
+CONTVARIABLE[da]="opgørelsesvariabel" ;
+CONTVARIABLE[kl]="naatsorsuusiussaq" ;
+VALUES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES("municipality")="Kommuneqarfik Sermersooq","Qeqqata Kommunia","Kommune Kujalleq",
+"Qaasuitsup Kommunia","Other/No information given","Total";
+VALUES[da]("kommune")="Kommuneqarfik Sermersooq","Qeqqata Kommunia","Kommune Kujalleq",
+"Qaasuitsup Kommunia","Øvrige / Uoplyst","Total";
+VALUES[kl]("kommune")="Kommuneqarfik Sermersooq","Qeqqata Kommunia","Kommune Kujalleq",
+"Qaasuitsup Kommunia","Allat / Nalunaarutigineqanngitsoq","Katillugit";
+VALUES("interval of aggregate salaries and shares")="A. 00-10","B. 10-50","C. 50-100",
+"D. 100-250","E. 250-500","F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","K. Over 10.000",
+"Total";
+VALUES[da]("lønsumsinterval")="A. 00-10","B. 10-50","C. 50-100","D. 100-250","E. 250-500",
+"F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","K. Over 10.000","Total";
+VALUES[kl]("akissarsialiussaqassuseq")="A. 00-10","B. 10-50","C. 50-100","D. 100-250",
+"E. 250-500","F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","K. 10.000-it sinnerlugit",
+"Katillugit";
+TIMEVAL("time")=TLIST(A1,"2008"-"2016");
+TIMEVAL[da]("tid")=TLIST(A1,"2008"-"2016");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2008"-"2016");
+VALUES("calculation variable")="Number of businesses";
+VALUES[da]("opgørelsesvariabel")="Antal virksomheder";
+VALUES[kl]("naatsorsuusiussaq")="Suliffeqarfiit amerlassusaat";
+CODES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES("municipality")="1","2","3","4","5","7";
+CODES[da]("kommune")="1","2","3","4","5","7";
+CODES[kl]("kommune")="1","2","3","4","5","7";
+CODES("interval of aggregate salaries and shares")="A","B","C","D","E","F","G","H",
+"K","T";
+CODES[da]("lønsumsinterval")="A","B","C","D","E","F","G","H","K","T";
+CODES[kl]("akissarsialiussaqassuseq")="A","B","C","D","E","F","G","H","K","T";
+CODES("calculation variable")="Totala_n";
+CODES[da]("opgørelsesvariabel")="Totala_n";
+CODES[kl]("naatsorsuusiussaq")="Totala_n";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20180727 09:00";
+ELIMINATION("interval of aggregate salaries and shares")=YES;
+ELIMINATION[da]("lønsumsinterval")=YES;
+ELIMINATION[kl]("akissarsialiussaqassuseq")=YES;
+ELIMINATION("municipality")=YES;
+ELIMINATION[da]("kommune")=YES;
+ELIMINATION[kl]("kommune")=YES;
+DATA=
+152.00 186.00 120.00 184.00 126.00 119.00 203.00 39.00  
+44.00 1173.00 72.00 122.00 54.00 88.00 69.00 43.00 76.00  
+8.00 10.00 542.00 74.00 83.00 46.00 59.00 64.00 31.00  
+50.00 4.00 8.00 419.00 286.00 494.00 326.00 276.00 118.00  
+56.00 83.00 11.00 7.00 1657.00 3.00 10.00 10.00 18.00  
+23.00 14.00 17.00 4.00 5.00 104.00 587.00 895.00 556.00  
+625.00 400.00 263.00 429.00 66.00 74.00 3895.00 124.00 186.00  
+103.00 164.00 138.00 137.00 196.00 40.00 45.00 1133.00 62.00  
+142.00 68.00 90.00 38.00 40.00 72.00 10.00 8.00 530.00  
+46.00 93.00 56.00 64.00 32.00 42.00 50.00 4.00 6.00  
+393.00 274.00 431.00 338.00 300.00 110.00 71.00 79.00 9.00  
+10.00 1622.00 3.00 12.00 4.00 17.00 20.00 14.00 22.00  
+1.00 4.00 97.00 509.00 864.00 569.00 635.00 338.00 304.00  
+419.00 64.00 73.00 3775.00 112.00 149.00 110.00 184.00 132.00  
+132.00 212.00 44.00 49.00 1124.00 51.00 112.00 92.00 81.00  
+61.00 35.00 75.00 8.00 9.00 524.00 73.00 93.00 41.00  
+55.00 39.00 44.00 45.00 6.00 5.00 401.00 247.00 377.00  
+342.00 321.00 128.00 73.00 78.00 11.00 11.00 1588.00 6.00  
+18.00 11.00 14.00 24.00 19.00 35.00 10.00 4.00 141.00  
+489.00 749.00 596.00 655.00 384.00 303.00 445.00 79.00 78.00  
+3778.00 111.00 151.00 141.00 171.00 160.00 136.00 223.00 42.00  
+52.00 1187.00 73.00 82.00 72.00 93.00 59.00 49.00 75.00  
+7.00 9.00 519.00 46.00 84.00 56.00 56.00 50.00 46.00  
+41.00 7.00 4.00 390.00 185.00 323.00 305.00 431.00 173.00  
+87.00 87.00 13.00 11.00 1615.00 6.00 11.00 10.00 20.00  
+27.00 21.00 47.00 8.00 8.00 158.00 421.00 651.00 584.00  
+771.00 469.00 339.00 473.00 77.00 84.00 3869.00 102.00 151.00  
+134.00 243.00 183.00 166.00 229.00 46.00 49.00 1303.00 57.00  
+88.00 81.00 98.00 61.00 50.00 70.00 14.00 8.00 527.00  
+45.00 82.00 54.00 71.00 53.00 40.00 37.00 5.00 5.00  
+392.00 176.00 288.00 271.00 495.00 232.00 102.00 87.00 12.00  
+17.00 1680.00 5.00 16.00 6.00 18.00 18.00 17.00 32.00  
+6.00 4.00 122.00 385.00 625.00 546.00 925.00 547.00 375.00  
+455.00 83.00 83.00 4024.00 105.00 163.00 148.00 243.00 201.00  
+162.00 237.00 48.00 50.00 1357.00 63.00 82.00 102.00 99.00  
+68.00 50.00 70.00 13.00 7.00 554.00 30.00 71.00 47.00  
+85.00 58.00 35.00 38.00 8.00 4.00 376.00 188.00 230.00  
+278.00 467.00 276.00 137.00 82.00 13.00 9.00 1680.00 6.00  
+11.00 11.00 23.00 20.00 13.00 20.00 4.00 2.00 110.00  
+392.00 557.00 586.00 917.00 623.00 397.00 447.00 86.00 72.00  
+4077.00 106.00 187.00 155.00 231.00 210.00 156.00 234.00 50.00  
+49.00 1378.00 54.00 77.00 77.00 124.00 57.00 43.00 73.00  
+13.00 7.00 525.00 56.00 69.00 58.00 78.00 46.00 39.00  
+32.00 3.00 5.00 386.00 139.00 257.00 223.00 472.00 293.00  
+142.00 96.00 14.00 6.00 1642.00 3.00 9.00 4.00 18.00  
+13.00 16.00 15.00 7.00 1.00 86.00 358.00 599.00 517.00  
+923.00 619.00 396.00 450.00 87.00 68.00 4017.00 97.00 180.00  
+156.00 224.00 202.00 152.00 240.00 34.00 61.00 1346.00 49.00  
+62.00 80.00 148.00 77.00 42.00 78.00 15.00 6.00 557.00  
+36.00 44.00 68.00 79.00 53.00 30.00 34.00 5.00 3.00  
+352.00 127.00 221.00 231.00 452.00 356.00 163.00 90.00 13.00  
+7.00 1660.00 11.00 24.00 13.00 25.00 24.00 16.00 18.00  
+5.00 4.00 140.00 320.00 531.00 548.00 928.00 712.00 403.00  
+460.00 72.00 81.00 4055.00 98.00 215.00 144.00 255.00 195.00  
+163.00 236.00 48.00 63.00 1417.00 56.00 75.00 68.00 140.00  
+73.00 50.00 86.00 12.00 8.00 568.00 30.00 68.00 61.00  
+84.00 51.00 34.00 34.00 3.00 4.00 369.00 107.00 220.00  
+211.00 437.00 417.00 221.00 105.00 17.00 9.00 1744.00 10.00  
+14.00 8.00 20.00 19.00 12.00 21.00 6.00 4.00 114.00  
+301.00 592.00 492.00 936.00 755.00 480.00 482.00 86.00 88.00  
+4212.00;

@@ -1,0 +1,120 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20130416 09:00";
+NEXT-UPDATE="20190727 09:00";
+MATRIX="ESX4AGB2000";
+AGGREGALLOWED=YES;
+AUTOPEN=NO;
+SUBJECT-CODE="ES";
+SUBJECT-AREA="Businesses";
+SUBJECT-AREA[da]="Erhverv";
+SUBJECT-AREA[kl]="Inuussutissarsiorneq";
+COPYRIGHT=YES;
+DESCRIPTION="Number of businesses by interval of aggregate salaries and shares, (DISCONTINUED)";
+DESCRIPTION[da]="Antal virksomheder efter lønsumsinterval, (AFSLUTTET)";
+DESCRIPTION[kl]="Suliffeqarfiit amerlassusaat by akissarsialiussaqassuseq, (NAAVOQ)";
+TITLE="Number of businesses by interval of aggregate salaries and shares, "
+"calculation variable and time";
+TITLE[da]="Antal virksomheder efter lønsumsinterval, opgørelsesvariabel og tid";
+TITLE[kl]="Suliffeqarfiit amerlassusaat kingorna akissarsialiussaqassuseq, "
+"naatsorsuusiussaq aamma piffissaq";
+CONTENTS="Number of businesses";
+CONTENTS[da]="Antal virksomheder";
+CONTENTS[kl]="Suliffeqarfiit amerlassusaat";
+UNITS="Number of businesses, Aggregate salaries and shares, in million DKK, "
+"Average salaries and shares, in million DKK";
+UNITS[da]="Antal virksomheder, Lønsum i mio. kr., Gennemsnitlig lønsum i mio. kr.";
+UNITS[kl]="Suliffeqarfiit amerlassusaat, Akissarsialiussat katillugit, mio. kr, "
+"Agguaqatigiisillugu akissarsialiussat, mio. kr";
+CONTACT="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[da]="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[kl]="Najaaraq Christiansen, nakr@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+STUB="interval of aggregate salaries and shares";
+STUB[da]="lønsumsinterval";
+STUB[kl]="akissarsialiussaqassuseq";
+HEADING="calculation variable","time";
+HEADING[da]="opgørelsesvariabel","tid";
+HEADING[kl]="naatsorsuusiussaq","piffissaq";
+CONTVARIABLE="calculation variable" ;
+CONTVARIABLE[da]="opgørelsesvariabel" ;
+CONTVARIABLE[kl]="naatsorsuusiussaq" ;
+VALUES("interval of aggregate salaries and shares")="A. 00-10","B. 10-50","C. 50-100",
+"D. 100-250","E. 250-500","F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","I. 10.000-20.000",
+"J. 20.000-100.000","K. Over 100.000","Total";
+VALUES[da]("lønsumsinterval")="A. 00-10","B. 10-50","C. 50-100","D. 100-250","E. 250-500",
+"F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","I. 10.000-20.000","J. 20.000-100.000",
+"K. Over 100.000","Total";
+VALUES[kl]("akissarsialiussaqassuseq")="A. 00-10","B. 10-50","C. 50-100","D. 100-250",
+"E. 250-500","F. 500-1.000","G. 1.000-5.000","H. 5.000-10.000","I. 10.000-20.000",
+"J. 20.000-100.000","K. 100.000-it sinnerlugit","Katillugit";
+VALUES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+TIMEVAL("time")=TLIST(A1,"2008"-"2016");
+TIMEVAL[da]("tid")=TLIST(A1,"2008"-"2016");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2008"-"2016");
+VALUES("calculation variable")="Number of businesses","Aggregate salaries and shares, in million DKK",
+"Average salaries and shares, in million DKK";
+VALUES[da]("opgørelsesvariabel")="Antal virksomheder","Lønsum i mio. kr.","Gennemsnitlig lønsum i mio. kr.";
+VALUES[kl]("naatsorsuusiussaq")="Suliffeqarfiit amerlassusaat","Akissarsialiussat katillugit, mio. kr",
+"Agguaqatigiissillugu akissarsialiussat, mio. kr.";
+CODES("interval of aggregate salaries and shares")="A","B","C","D","E","F","G","H",
+"I","J","K","T";
+CODES[da]("lønsumsinterval")="A","B","C","D","E","F","G","H","I","J","K","T";
+CODES[kl]("akissarsialiussaqassuseq")="A","B","C","D","E","F","G","H","I","J","K",
+"T";
+CODES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES("calculation variable")="Totala_n","Totala_sum","Totala_mean";
+CODES[da]("opgørelsesvariabel")="Totala_n","Totala_sum","Totala_mean";
+CODES[kl]("naatsorsuusiussaq")="Totala_n","Totala_sum","Totala_mean";
+DECIMALS=2;
+SHOWDECIMALS=2;
+LAST-UPDATED="20180727 09:00";
+ELIMINATION("interval of aggregate salaries and shares")=YES;
+ELIMINATION[da]("lønsumsinterval")=YES;
+ELIMINATION[kl]("akissarsialiussaqassuseq")=YES;
+DATA=
+587.00 509.00 489.00 421.00 385.00 392.00 358.00 320.00  
+301.00 2.00 2.10 1.90 1.70 1.60 1.50 1.50 1.30  
+1.34 "-" "-" "-" "-" "-" "-" "-" "-"  
+0.00 895.00 864.00 749.00 651.00 625.00 557.00 599.00 531.00  
+592.00 24.00 23.80 20.70 18.40 17.10 15.70 16.70 14.60  
+16.13 "-" 0.03 0.03 0.03 0.03 0.03 0.03 0.03  
+0.03 556.00 569.00 596.00 584.00 546.00 586.00 517.00 548.00  
+492.00 40.00 40.90 42.60 42.10 38.90 41.30 36.90 39.30  
+34.58 0.10 0.07 0.07 0.07 0.07 0.07 0.07 0.07  
+0.07 625.00 635.00 655.00 771.00 925.00 917.00 923.00 928.00  
+936.00 99.00 99.70 103.60 122.10 149.10 148.30 148.50 148.10  
+149.76 0.20 0.16 0.16 0.16 0.16 0.16 0.16 0.16  
+0.16 400.00 338.00 384.00 469.00 547.00 623.00 619.00 712.00  
+755.00 141.00 119.50 133.00 162.90 188.10 217.30 217.20 246.30  
+267.28 0.40 0.35 0.35 0.35 0.34 0.35 0.35 0.35  
+0.35 263.00 304.00 303.00 339.00 375.00 397.00 396.00 403.00  
+480.00 186.00 215.90 212.60 239.90 260.40 271.80 275.50 275.30  
+332.60 0.70 0.71 0.70 0.71 0.69 0.68 0.70 0.68  
+0.69 429.00 419.00 445.00 473.00 455.00 447.00 450.00 460.00  
+482.00 950.00 921.10 919.00 1012.10 964.90 947.90 959.90 966.40  
+1015.40 2.20 2.20 2.07 2.14 2.12 2.12 2.13 2.10  
+2.11 66.00 64.00 79.00 77.00 83.00 86.00 87.00 72.00  
+86.00 485.00 464.20 556.30 553.20 570.20 590.80 601.10 491.50  
+579.85 7.30 7.25 7.04 7.18 6.87 6.87 6.91 6.83  
+6.74 34.00 36.00 36.00 38.00 38.00 33.00 33.00 42.00  
+51.00 448.00 502.50 477.00 514.60 493.10 460.50 454.10 551.80  
+683.28 13.20 13.96 13.25 13.54 12.98 13.95 13.76 13.14  
+13.40 30.00 27.00 31.00 35.00 33.00 27.00 26.00 28.00  
+26.00 1151.00 1041.80 1154.40 1363.00 1323.10 1096.00 1036.20 1148.10  
+1173.63 38.40 38.59 37.24 38.94 40.09 40.59 39.85 41.00  
+45.14 10.00 10.00 11.00 11.00 12.00 12.00 9.00 11.00  
+11.00 1912.00 1868.20 1993.50 2050.40 2211.40 2347.70 1857.00 2164.00  
+2256.52 191.20 186.82 181.23 186.40 184.28 195.64 206.33 196.73  
+205.14 3895.00 3775.00 3778.00 3869.00 4024.00 4077.00 4017.00 4055.00  
+4212.00 5438.00 5299.60 5614.80 6080.30 6217.90 6138.80 5604.40 6046.90  
+6510.38 1.40 1.40 1.49 1.57 1.55 1.51 1.40 1.49  
+1.55;

@@ -1,0 +1,66 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20091022 08:00";
+NEXT-UPDATE="20160421 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="ESEANS";
+SUBJECT-CODE="ES";
+SUBJECT-AREA="Businesses";
+SUBJECT-AREA[da]="Erhverv";
+SUBJECT-AREA[kl]="Inuussutissarsiorneq";
+COPYRIGHT=YES;
+TITLE="Average number of employees by business and time";
+TITLE[da]="Gennemsnitligt antal ansatte by branche and tid";
+TITLE[kl]="Agguaqatigiissillugu ukiumut sulisut by inuussutissarsiorfiit and ukioq";
+CONTENTS="Average number of employees";
+CONTENTS[da]="Gennemsnitligt antal ansatte";
+CONTENTS[kl]="Agguaqatigiissillugu ukiumut sulisut";
+UNITS="employees";
+UNITS[da]="antal";
+UNITS[kl]="sulisut";
+STUB="business";
+STUB[da]="branche";
+STUB[kl]="inuussutissarsiorfiit";
+HEADING="time";
+HEADING[da]="tid";
+HEADING[kl]="ukioq";
+VALUES("business")="B. Fishing","C. Mining","D. Industry","F. Construction",
+"G. Wholesale, retail trade and repairwork","H. Hotels and restaurants","I. Transport",
+"J. Finance and insurance","K. Real estate and business services";
+VALUES[da]("branche")="B. Fiskeri","C. Råstofudvinding","D. Industri",
+"F. Bygge- og anlægsvirksomhed","G. Handel og reparationsvirksomhed",
+"H. Hotel- og restaurationsvirksomhed","I. Transportvirksomhed",
+"J. Pengeinstitutter, finansierings- og forsikringsvirksomhed",
+"K. Fast ejendom, udlejning, forretningsservice mv.";
+VALUES[kl]("inuussutissarsiorfiit")="B. Aalisarneq","C. Aatsitassiorneq","D. Atortussiorneq",
+"F. Sanaartorneq","G. Niuertunik pilersuineq atugassanillu nioqquteqarneq",
+"H. Akunnittarfiit neriniartarfiillu","I. Assartuineq",
+"J. Aningaaseriviit, aningaasaliisarfiit sillimmasiisarfiillu",
+"K. Inissianik attartortitsinerit sullissinerillu allat";
+VALUES("time")="2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013";
+VALUES[da]("tid")="2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013";
+VALUES[kl]("ukioq")="2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013";
+TIMEVAL("time")=TLIST(A1,"2003"-"2013");
+TIMEVAL[da]("tid")=TLIST(A1,"2003"-"2013");
+TIMEVAL[kl]("ukioq")=TLIST(A1,"2003"-"2013");
+LAST-UPDATED="20150603 09:00";
+CONTACT="Najaaraq Kreutzmann, NAKR@stat.gl";
+CONTACT[da]="Najaaraq Kreutzmann, NAKR@stat.gl";
+CONTACT[kl]="Najaaraq Kreutzmann, NAKR@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+DATA=
+657 606 642 666 534 757 628 576 512 497 472 
+16 27 68 30 42 47 16 20 21 24 21 
+514 488 476 678 566 567 567 534 499 341 286 
+1258 1483 1513 1610 1834 1802 1770 1750 1615 1717 1669 
+4065 4233 4143 3830 4078 4085 3986 3901 3877 3700 3876 
+347 377 373 354 377 446 453 450 569 443 450 
+2019 2080 2138 2279 2253 2327 2341 2259 2201 2109 2131 
+124 115 112 157 118 123 138 134 132 172 212 
+1020 959 971 984 1020 1178 994 1026 1064 970 1251; 

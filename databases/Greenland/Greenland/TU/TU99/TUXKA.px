@@ -1,0 +1,178 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20111214 09:00";
+NEXT-UPDATE="20121214 09:00";
+UPDATE-FREQUENCY="annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="TUXKA";
+SUBJECT-CODE="TU";
+SUBJECT-AREA="Tourism";
+SUBJECT-AREA[da]="Turisme";
+SUBJECT-AREA[kl]="Takornariartitsineq";
+DESCRIPTION="Tax for cruisepassengers by time, month and paid tax <em>[TUEKA]</em>";
+DESCRIPTION[da]="Krydstogtspassagerafgift efter tid, måned og betalt afgift <em>[TUDKA]</em>";
+DESCRIPTION[kl]="Umiarsuarnut takornariartaatinut akitsuut : piffissaq, qaammat, akileraarut akiligaq <em>[TUNKA]</em>";
+TITLE="Tax for cruisepassengers by time, month and paid tax";
+TITLE[da]="Krydstogtspassagerafgift efter tid, måned og betalt afgift";
+TITLE[kl]="Umiarsuarnut takornariartaatinut akitsuut by piffissaq, qaammat and akileraarut akiligaq";
+CONTENTS="Tax for cruisepassengers";
+CONTENTS[da]="Krydstogtspassagerafgift";
+CONTENTS[kl]="Umiarsuarnut takornariartaatinut akitsuut";
+UNITS="DKK";
+UNITS[da]="kroner";
+UNITS[kl]="koruunit";
+STUB="time","month";
+STUB[da]="tid","måned";
+STUB[kl]="piffissaq","qaammat";
+HEADING="paid tax";
+HEADING[da]="betalt afgift";
+HEADING[kl]="akileraarut akiligaq";
+VALUES("time")="2006","2007","2008","2009","2010","2011","2012","2013","2014";
+VALUES[da]("tid")="2006","2007","2008","2009","2010","2011","2012","2013","2014";
+VALUES[kl]("piffissaq")="2006","2007","2008","2009","2010","2011","2012","2013","2014";
+VALUES("month")="Total","January","February","March","April","May","June","July","August",
+"September","October","November","December";
+VALUES[da]("måned")="I alt","Januar","Februar","Marts","April","Maj","Juni","Juli","August",
+"September","Oktober","November","December";
+VALUES[kl]("qaammat")="Katillugit","Januari","Februari","Martsi","Aprili","Maji","Juni","Juli",
+"Augusti","Septemberi","Oktoberi","Novemberi","Decemberi";
+VALUES("paid tax")="paid tax";
+VALUES[da]("betalt afgift")="betalt afgift";
+VALUES[kl]("akileraarut akiligaq")="akileraarut akiligaq";
+TIMEVAL("time")=TLIST(A1,"2006"-"2014");
+TIMEVAL[da]("tid")=TLIST(A1,"2006"-"2014");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2006"-"2014");
+ELIMINATION("month")="Total";
+ELIMINATION[da]("måned")="I alt";
+ELIMINATION[kl]("qaammat")="Katillugit";
+ELIMINATION("paid tax")=YES;
+ELIMINATION[da]("betalt afgift")=YES;
+ELIMINATION[kl]("akileraarut akiligaq")=YES;
+LAST-UPDATED="20141205 09:00";
+CONTACT="Ivalu Rosing, IVRO@stat.gl";
+CONTACT[da]="Ivalu Rosing, IVRO@stat.gl";
+CONTACT[kl]="Ivalu Rosing, IVRO@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Statistics Greenland";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+DATA=
+9922950 
+0 
+0 
+0 
+20250 
+100350 
+476550 
+2366100 
+3737700 
+2078550 
+1143450 
+0 
+0 
+10577700 
+0 
+0 
+0 
+0 
+43650 
+725400 
+2817900 
+4007700 
+2983050 
+0 
+0 
+0 
+12922200 
+0 
+0 
+0 
+0 
+116550 
+620100 
+5681700 
+3400200 
+3103650 
+0 
+0 
+0 
+14162400 
+0 
+0 
+0 
+0 
+115500 
+552300 
+4137000 
+4440450 
+3336375 
+1580775 
+0 
+0 
+15892275 
+0 
+0 
+0 
+0 
+38325 
+1294125 
+4512900 
+6365100 
+1997100 
+134400 
+1550325 
+0 
+15658650 
+0 
+0 
+0 
+0 
+1050 
+624750 
+3153675 
+6008625 
+5870550 
+0 
+0 
+0 
+12284475 
+0 
+0 
+0 
+0 
+38850 
+731325 
+3021375 
+3207225 
+5285700 
+0 
+0 
+0 
+10885875 
+0 
+0 
+0 
+32550 
+75600 
+778575 
+1137150 
+2735775 
+6126225 
+0 
+0 
+0 
+10538325 
+0 
+0 
+0 
+66150 
+87675 
+485625 
+3139500 
+3513300 
+3246075 
+".." 
+".." 
+".."; 

@@ -1,0 +1,103 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20100504 09:00";
+NEXT-UPDATE="20100525 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="SAXSENG";
+SUBJECT-CODE="SA";
+SUBJECT-AREA="Statistical Yearbook";
+SUBJECT-AREA[da]="Statistisk Årbog";
+SUBJECT-AREA[kl]="Ukiumoortumik paasissutissat";
+DESCRIPTION="Discharged patients and consumption of patient days at hospitals in 2001-2008 by hospital, unit and time <em>[SAESENG]</em>";
+DESCRIPTION[da]="Udskrevne patienter og forbrug af sengedage ved sygehusene 2001-2008 efter sygehus, enhed og tid <em>[SADSENG]</em>";
+DESCRIPTION[kl]="2001-2008 napparsimmavimmiit napparsimasut angerlatinneqartut ullullu uninngaviit - napparsimmavik, uuttuut, piffissaq <em>[SANSENG]</em>";
+TITLE="Discharged patients and consumption of patient days at hospitals in 2001-2008 by hospital, unit and time";
+TITLE[da]="Udskrevne patienter og forbrug af sengedage ved sygehusene 2001-2008 efter sygehus, enhed og tid";
+TITLE[kl]="2001-2008 napparsimmavimmiit napparsimasut angerlatinneqartut ullullu uninngaviit by napparsimmavik, uuttuut and piffissaq";
+CONTENTS="Discharged patients and consumption of patient days at hospitals in 2001-2008";
+CONTENTS[da]="Udskrevne patienter og forbrug af sengedage ved sygehusene 2001-2008";
+CONTENTS[kl]="2001-2008 napparsimmavimmiit napparsimasut angerlatinneqartut ullullu uninngaviit";
+UNITS="persons, patient days";
+UNITS[da]="personer og sengedage";
+UNITS[kl]="inuit, ullut uninngaviit";
+STUB="hospital","unit";
+STUB[da]="sygehus","enhed";
+STUB[kl]="napparsimmavik","uuttuut";
+HEADING="time";
+HEADING[da]="tid";
+HEADING[kl]="piffissaq";
+VALUES("hospital")="Total","Nuuk, total","Nuuk, medicin","Nuuk, surgery","Nuuk, psychiatric",
+"Outside Nuuk, total","Nanortalik","Qaqortoq","Narsaq","Paamiut","Maniitsoq","Sisimiut","Aasiaat",
+"Qasigiannguit","Ilulissat","Qeqertarsuaq","Uummannaq","Upernavik","Qaanaaq","Ammassalik",
+"Illoqqortoormiut";
+VALUES[da]("sygehus")="Grønland","Nuuk, i alt","Nuuk, medicin","Nuuk, kirurgi","Nuuk, psykiatrisk",
+"Undenfor Nuuk, i alt","Nanortalik","Qaqortoq","Narsaq","Paamiut","Maniitsoq","Sisimiut","Aasiaat",
+"Qasigiannguit","Ilulissat","Qeqertarsuaq","Uummannaq","Upernavik","Qaanaaq","Ammassalik",
+"Illoqqortoormiut";
+VALUES[kl]("napparsimmavik")="Grønland","Nuuk, katillugit","Nuuk, nakorsaatit",
+"Nuuk, pilattaasarfik","Nuuk, tarnimikkut nappaatillit","Nuup avataani, katillugit","Nanortalik",
+"Qaqortoq","Narsaq","Paamiut","Maniitsoq","Sisimiut","Aasiaat","Qasigiannguit","Ilulissat",
+"Qeqertarsuaq","Uummannaq","Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES("unit")="Discharged patients","Patient days";
+VALUES[da]("enhed")="Udskrevne patienter","Sengedage";
+VALUES[kl]("uuttuut")="Napparsimasut angerlatinneqartut","Ullut uninngaviit";
+VALUES("time")="2001","2002","2003","2004","2005","2006","2007","2008";
+VALUES[da]("tid")="2001","2002","2003","2004","2005","2006","2007","2008";
+VALUES[kl]("piffissaq")="2001","2002","2003","2004","2005","2006","2007","2008";
+TIMEVAL("time")=TLIST(A1,"2001"-"2008");
+TIMEVAL[da]("tid")=TLIST(A1,"2001"-"2008");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2001"-"2008");
+LAST-UPDATED="20100525 09:00";
+CONTACT="Statistics Greenland, stat@stat.gl";
+CONTACT[da]="Grønlands Statistik, stat@stat.gl";
+CONTACT[kl]="Naatsorsueqqissaartarfik, stat@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+DATA=
+12343 13778 14438 15174 15083 15307 13878 15274 
+69342 69315 68862 71201 68666 78475 67889 74061 
+4357 5505 6550 7480 6834 7055 6334 6757 
+33538 32652 34584 35620 34609 38498 37232 37523 
+1338 2098 2095 2196 2125 2494 2291 2208 
+9921 11524 12680 14111 14549 16056 15303 15178 
+2741 3175 4208 5019 4470 4307 3779 4342 
+18637 16792 17524 17681 16403 18578 18202 18853 
+278 232 247 265 239 254 264 207 
+4980 4336 4380 3828 3657 3864 3727 3492 
+7986 8273 7888 7694 8249 8252 7544 8517 
+35804 36663 34278 35581 34057 39977 30657 36538 
+529 529 447 385 343 414 284 285 
+3042 3042 2248 1487 1202 1316 702 680 
+811 811 729 704 753 698 605 850 
+3995 3995 3130 3879 2690 2350 1218 2285 
+541 540 471 464 472 300 432 412 
+2213 2212 1756 2112 1671 950 1105 1501 
+345 345 370 309 339 350 345 345 
+1405 1405 1816 1109 1217 1586 1697 1621 
+607 638 694 754 726 847 639 661 
+3121 3240 3691 3070 3170 3876 2770 2958 
+874 874 880 783 970 1089 978 981 
+2667 2667 2556 2088 2953 2978 2740 2952 
+903 903 950 983 1041 900 890 1013 
+3454 3454 3844 4618 4008 3500 3262 4052 
+287 287 245 258 213 267 255 205 
+966 966 878 1200 1343 3271 3185 2704 
+721 721 805 896 882 1050 799 1093 
+2924 2924 3343 3257 3009 6300 2532 4339 
+90 90 113 136 119 119 118 126 
+443 443 448 1144 474 818 436 974 
+393 393 482 455 528 489 487 647 
+2201 2201 2763 2831 2911 3586 3423 3685 
+408 408 400 443 380 430 423 423 
+1935 1935 1857 1955 2460 2186 2249 2006 
+244 244 210 99 215 92 76 168 
+1421 1421 1089 757 1402 525 625 625 
+974 974 929 979 1106 1080 1096 1125 
+4920 490 4220 5072 5066 6293 4390 5833 
+259 259 163 46 162 127 117 183 
+1097 1005 639 1002 481 442 323 323; 

@@ -1,0 +1,86 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20090916 09:00";
+NEXT-UPDATE="20100809 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="BOX001";
+SUBJECT-CODE="BO";
+SUBJECT-AREA="Housing";
+SUBJECT-AREA[da]="Boliger";
+SUBJECT-AREA[kl]="Ineqarneq";
+COPYRIGHT=YES;
+DESCRIPTION="Dwellings by district, time and place <em>[BOE001]</em>";
+DESCRIPTION[da]="Boliger efter distrikt, tid og bosted <em>[BOD001]</em>";
+DESCRIPTION[kl]="1. januar inissiat amerlassusii 2000-2009-mut by immikkoortortaqarfik aamma sumiiffik <em>[BON001]</em>";
+TITLE="Dwellings by district, time and place";
+TITLE[da]="Boligbestanden pr. 1. Januar efter distrikt, tid og bosted";
+TITLE[kl]="1. januar inissiat amerlassusii by immikkoortortaqarfik, piffissaq and najugaqarfik";
+CONTENTS="Dwellings";
+CONTENTS[da]="Boligbestanden pr. 1. Januar";
+CONTENTS[kl]="1. januar inissiat amerlassusii";
+UNITS="Number of dwellings";
+UNITS[da]="Antal Boliger";
+UNITS[kl]="Inissiat amerlassusii";
+STUB="district";
+STUB[da]="distrikt";
+STUB[kl]="immikkoortortaqarfik";
+HEADING="time","place";
+HEADING[da]="tid","bosted";
+HEADING[kl]="piffissaq","najugaqarfik";
+VALUES("district")="Total","Nanortalik","Qaqortoq","Narsaq","Paamiut","Nuuk","Maniitsoq",
+"Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq","Uummannaq",
+"Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES[da]("distrikt")="I alt","Nanortalik","Qaqortoq","Narsaq","Paamiut","Nuuk","Maniitsoq",
+"Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq","Uummannaq",
+"Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES[kl]("immikkoortortaqarfik")="Katillugit","Nanortalik","Qaqortoq","Narsaq","Paamiut","Nuuk",
+"Maniitsoq","Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq",
+"Uummannaq","Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES("time")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010";
+VALUES[da]("tid")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010";
+VALUES[kl]("piffissaq")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009",
+"2010";
+VALUES("place")="Town","Village","Total excl. dorm rooms and elderly","Dorm","Elderly";
+VALUES[da]("bosted")="By","Bygd","I alt excl. koll. og alderdomshjem","Kollegieværelser",
+"Alderdomshjem";
+VALUES[kl]("najugaqarfik")="Illoqarfik","Nunaqarfik",
+"Katil. ilanngunnagu koll. aamma utoqqaat illu.","Kollegiat ineqar.","Utoqqaat illuat";
+TIMEVAL("time")=TLIST(A1,"2000"-"2010");
+TIMEVAL[da]("tid")=TLIST(A1,"2000"-"2010");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2000"-"2010");
+ELIMINATION("district")="Total";
+ELIMINATION[da]("distrikt")="I alt";
+ELIMINATION[kl]("immikkoortortaqarfik")="Katillugit";
+LAST-UPDATED="20100809 09:00";
+CONTACT="Statistics Greenland, stat@stat.gl";
+CONTACT[da]="Grønlands Statistik, stat@stat.gl";
+CONTACT[kl]="Naatsorsueqqissaartarfik, stat@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTEX="<em>DISCONTINUED</em>";
+NOTEX[da]="<em>AFSLUTTET</em>";
+NOTEX[kl]="<em>NUTARTIGASSAANNGITSOQ</em>";
+DATA=
+16929 3446 20375 1147 476 17132 3473 20605 977 606 17434 3501 20935 1220 609 17674 3525 21199 1076 764 17875 3550 21425 1082 763 18092 3564 21656 1221 799 18280 3572 21852 1222 803 18468 3609 22077 1529 820 18717 3654 22371 1694 871 19163 3670 22833 1947 911 19402 3710 23112 1928 752 
+557 422 979 20 36 559 422 981 20 32 575 423 998 20 42 576 424 1000 23 41 579 424 1003 23 41 587 426 1013 23 47 587 426 1013 10 53 587 426 1013 10 53 593 432 1025 18 53 596 432 1028 18 53 610 442 1052 18 49 
+1221 122 1343 107 57 1223 124 1347 107 72 1239 125 1364 110 57 1250 126 1376 113 73 1255 130 1385 113 73 1268 130 1398 115 92 1294 130 1424 101 92 1313 130 1443 235 92 1337 130 1467 253 92 1366 132 1498 250 92 1379 132 1511 263 79 
+740 63 803 48 23 741 65 806 44 38 741 67 808 44 26 742 71 813 47 46 744 73 817 47 46 744 74 818 47 46 744 74 818 47 47 752 74 826 47 47 753 75 828 79 47 754 75 829 96 47 761 77 838 96 47 
+956 111 1067 73 13 956 111 1067 76 18 956 111 1067 73 22 956 111 1067 69 31 956 111 1067 69 31 956 111 1067 69 31 956 111 1067 69 31 956 111 1067 66 31 956 111 1067 65 58 956 111 1067 65 58 964 111 1075 65 58 
+4936 171 5107 573 80 5027 171 5198 424 80 5257 171 5428 573 91 5398 171 5569 431 127 5500 171 5671 480 127 5613 171 5784 480 127 5703 172 5873 480 127 5784 172 5956 480 127 5964 172 6136 480 127 6147 172 6319 597 127 6283 172 6455 597 127 
+1165 302 1467 63 35 1166 305 1471 52 55 1169 316 1485 66 43 1173 320 1493 66 54 1175 320 1495 67 54 1186 320 1506 68 53 1187 320 1507 68 53 1187 320 1507 68 53 1189 320 1509 62 56 1191 321 1512 60 44 1195 321 1516 72 36 
+1788 91 1879 109 30 1825 91 1916 116 76 1828 91 1919 159 40 1840 92 1932 151 69 1870 96 1966 151 69 1881 99 1980 262 84 1888 101 1989 270 80 1913 125 2038 270 80 1917 125 2042 323 80 2037 126 2163 329 129 2046 134 2180 315 80 
+194 258 452 "-" 6 197 262 459 "-" 6 197 263 460 "-" 6 198 266 464 "-" 12 204 269 473 "-" 20 207 269 476 "-" 20 208 269 477 "-" 20 209 269 478 "-" 20 209 269 478 "-" 20 216 270 486 "-" 20 216 270 486 "-" 11 
+1151 106 1257 9 39 1179 108 1287 10 42 1179 108 1287 10 42 1210 109 1319 18 59 1213 109 1322 "-" 59 1219 109 1328 "-" 57 1227 109 1336 18 57 1231 110 1341 194 57 1232 110 1342 194 57 1234 110 1344 268 58 1243 110 1353 260 57 
+584 36 620 14 14 584 37 621 "-" 26 584 37 621 12 18 584 37 621 "-" 25 586 37 623 "-" 25 586 37 623 "-" 22 586 37 623 "-" 23 586 37 623 "-" 23 586 37 623 "-" 23 586 37 623 "-" 28 586 37 623 "-" 23 
+1445 176 1621 74 28 1451 182 1633 76 57 1469 186 1655 94 30 1488 188 1676 111 65 1507 190 1697 111 65 1527 191 1718 136 65 1550 193 1743 138 65 1580 195 1775 138 65 1580 195 1775 138 72 1640 198 1838 140 72 1670 199 1869 140 70 
+393 27 420 "-" 31 400 27 427 "-" 30 400 27 427 "-" 31 401 27 428 "-" 31 401 27 428 "-" 22 401 27 428 "-" 22 413 27 440 "-" 22 413 30 443 "-" 39 424 30 454 "-" 39 424 30 454 "-" 39 426 30 456 "-" 16 
+533 484 1017 14 21 550 490 1040 7 11 550 493 1043 14 21 561 498 1059 7 24 562 502 1064 7 24 566 502 1068 7 26 569 503 1072 7 26 571 504 1075 7 26 575 506 1081 30 40 576 509 1085 7 40 576 509 1085 7 42 
+356 443 799 14 22 357 443 800 14 31 363 446 809 14 34 366 446 812 14 47 373 449 822 14 47 382 454 836 14 47 384 454 838 14 48 384 458 842 14 48 388 483 871 8 48 391 483 874 42 45 392 502 894 28 25 
+241 118 359 "-" 26 247 118 365 "-" 16 252 118 370 "-" 16 253 118 371 "-" 18 254 119 373 "-" 18 257 119 376 "-" 18 259 119 378 "-" 17 259 119 378 "-" 17 260 119 379 "-" 17 261 119 380 18 17 266 119 385 18 "-" 
+498 470 968 29 8 499 471 970 31 8 500 473 973 31 83 501 475 976 26 35 517 477 994 "-" 35 533 479 1012 "-" 35 546 481 1027 "-" 35 560 483 1043 "-" 35 571 494 1065 44 35 605 499 1104 57 35 606 499 1105 49 25 
+171 46 217 "-" 7 171 46 217 "-" 8 175 46 221 "-" 7 177 46 223 "-" 7 179 46 225 "-" 7 179 46 225 "-" 7 179 46 225 "-" 7 183 46 229 "-" 7 183 46 229 "-" 7 183 46 229 "-" 7 183 46 229 "-" 7; 

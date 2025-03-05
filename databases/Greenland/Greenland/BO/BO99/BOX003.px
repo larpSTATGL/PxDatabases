@@ -1,0 +1,65 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20100514 09:00";
+NEXT-UPDATE="20100809 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="BOX003";
+SUBJECT-CODE="BO";
+SUBJECT-AREA="Housing";
+SUBJECT-AREA[da]="Boliger";
+SUBJECT-AREA[kl]="Ineqarneq";
+COPYRIGHT=YES;
+DESCRIPTION="New buildings by place and time <em>[BOE003]</em>";
+DESCRIPTION[da]="Boligbyggeriet efter bosted og tid <em>[BOD003]</em>";
+DESCRIPTION[kl]="Inissianik sanaartortitsineq by najugaqarfik 1990-2009-mut <em>[BON003]</em>";
+TITLE="New buildings by place and time";
+TITLE[da]="Boligbyggeriet efter bosted og tid";
+TITLE[kl]="Inissianik sanaartortitsineq by najugaqarfik and piffissaq";
+CONTENTS="New buildings";
+CONTENTS[da]="Boligbyggeriet";
+CONTENTS[kl]="Inissianik sanaartortitsineq";
+UNITS="Number of dwellings";
+UNITS[da]="Antal boliger";
+UNITS[kl]="Inissiat amerlassusii";
+STUB="place";
+STUB[da]="bosted";
+STUB[kl]="najugaqarfik";
+HEADING="time";
+HEADING[da]="tid";
+HEADING[kl]="piffissaq";
+VALUES("place")="Total","Town","Village";
+VALUES[da]("bosted")="I alt","By","Bygd";
+VALUES[kl]("najugaqarfik")="Katillugit","Illoqarfik","Nunaqarfik";
+VALUES("time")="1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000","2001",
+"2002","2003","2004","2005","2006","2007","2008","2009";
+VALUES[da]("tid")="1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000",
+"2001","2002","2003","2004","2005","2006","2007","2008","2009";
+VALUES[kl]("piffissaq")="1990","1991","1992","1993","1994","1995","1996","1997","1998","1999",
+"2000","2001","2002","2003","2004","2005","2006","2007","2008","2009";
+TIMEVAL("time")=TLIST(A1,"1990"-"2009");
+TIMEVAL[da]("tid")=TLIST(A1,"1990"-"2009");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"1990"-"2009");
+ELIMINATION("place")="Total";
+ELIMINATION[da]("bosted")="I alt";
+ELIMINATION[kl]("najugaqarfik")="Katillugit";
+LAST-UPDATED="20100809 09:00";
+CONTACT="Statistics Greenland, stat@stat.gl";
+CONTACT[da]="Grønlands Statistik, stat@stat.gl";
+CONTACT[kl]="Naatsorsueqqissaartarfik, stat@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTE="";
+NOTE[da]="Note: Optælling af ultimo år";
+NOTE[kl]="";
+NOTEX="Archieved";
+NOTEX[da]="Arkiveret - opdateres ikke mere";
+NOTEX[kl]="Toqqorsivik - opdateres ikke mere";
+DATA=
+332 324 207 530 253 265 277 159 177 229 230 330 264 226 232 196 235 381 369 274 
+275 283 156 415 161 163 177 94 129 175 203 302 240 201 217 188 198 334 356 234 
+57 41 51 115 92 102 100 65 48 54 27 28 24 25 15 8 37 47 13 40; 

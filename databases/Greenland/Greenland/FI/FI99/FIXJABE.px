@@ -1,0 +1,76 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="iso-8859-15";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20180101 09:00";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="FIXJABE";
+COPYRIGHT=YES;
+SUBJECT-CODE="FI";
+
+SUBJECT-AREA="Fisheries and Catch";
+DESCRIPTION="Valid hunting licens, Greenland <em>[FIEJABE]</em>";
+TITLE="Hunting licens by time and species";
+CONTENTS="Valid hunting licenses for professional hunters and sports hunters, Greenland";
+STUB="time";
+HEADING="type";
+VALUES("time")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017";
+VALUES("type")="Professional hunters","Sports hunters";
+ELIMINATION("type")=YES;
+LAST-UPDATED="20180101 09:00";
+UNITS="Pieces";
+CONTACT="Lars Geraae, lage@stat.gl";
+SOURCE="Statistics Greenland";
+NEXT-UPDATE="20190101 09:00";
+UPDATE-FREQUENCY="Annually";
+NOTE="Valid hunting licenses = Issued and paid hunting licenses.";
+
+SUBJECT-AREA[da]="Fiskeri og fangst";
+DESCRIPTION[da]="Gyldige jagtbeviser for erhvervs- og fritidsfangere, Grønland <em>[FIDJABE]</em>";
+TITLE[da]="Gyldige jagtebviser efter tid og erhvervstype";
+CONTENTS[da]="Gyldige jagtbeviser for erhvervs- og fritidsfangere, Grønland";
+STUB[da]="tid";
+HEADING[da]="type";
+VALUES[da]("tid")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017";
+VALUES[da]("type")="Erhvervsjagtbevis","Fritidsjagtbevis";
+ELIMINATION[da]("type")=YES;
+LAST-UPDATED[da]="20180101 09:00";
+UNITS[da]="Styk";
+CONTACT[da]="Lars Geraae, lage@stat.gl";
+SOURCE[da]="Grønlands Statistik";
+NOTE[da]="Gyldige jagtbeviser = udstedte og betalte jagtbeviser.";
+
+SUBJECT-AREA[kl]="Aalisarneq piniarnerlu";
+DESCRIPTION[kl]="Pinialunnermut inuusutissarsiutigalugulu piniarnermut aalisarnermullu allagartat, Kalaallit nunaat <em>[FINJABE]</em>";
+TITLE[kl]="Pinarnermut allagartat tunngavigalugit: piffissaq aamma suussusaa";
+CONTENTS[kl]="Piniarnermut aalisarnermullu allagartat, Kalaallit nunaat";
+STUB[kl]="piffissaq";
+HEADING[kl]="suussusaa";
+VALUES[kl]("piffissaq")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017";
+VALUES[kl]("suussusaa")="Inuussutissarsiutigalugu","Sunngiffimmi";
+ELIMINATION[kl]("suussusaa")=YES;
+LAST-UPDATED[kl]="20180101 09:00";
+UNITS[kl]="Qassiuneri";
+CONTACT[kl]="Lars Geraae, lage@stat.gl";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTE[kl]="Piniarnermut allagartat tassaapput allagartat tunniunneqartut akilerneqarsimasullu";
+DATA=
+2866	9683
+2715	7756
+2526	6844
+2410	6134
+2482	5685
+2373	5807
+2127	5110
+1712	5258
+2083	5548
+2060	4977
+1758	3546
+1998	3869
+2065	3814
+1985	3832
+2049	4244
+2104	4880
+;

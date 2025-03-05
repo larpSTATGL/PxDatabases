@@ -1,0 +1,92 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20040430 16:58";
+NEXT-UPDATE="20040421 07:49";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+MATRIX="SAXBIBL";
+SUBJECT-CODE="SA";
+SUBJECT-AREA="Statistical Yearbook";
+SUBJECT-AREA[da]="Statistisk Årbog";
+SUBJECT-AREA[kl]="Ukiumoortumik paasissutissat";
+COPYRIGHT=YES;
+DESCRIPTION="Libraries 1992-2002 by municipality, stock/circulation and time <em>[SAEBIBL]</em>";
+DESCRIPTION[da]="Bibliotekernes bogbestand og udlån af bøger 1992-2002 efter kommune, bestand/udlån og tid <em>[SADBIBL]</em>";
+DESCRIPTION[kl]="Atuagaateqarfiit atuagaataasa atortittagaasalu amerlassusiat 1992-2001 - kommune, atuagaatit/atoritat, piffissaq <em>[SANBIBL]</em>";
+TITLE="Libraries 1992-2002 by municipality, stock/circulation and time";
+TITLE[da]="Bibliotekernes bogbestand og udlån af bøger 1992-2002 efter kommune, bestand/udlån og tid";
+TITLE[kl]="Atuagaateqarfiit atuagaataasa atortittagaasalu amerlassusiat 1992-2001 by kommune, atuagaatit/atoritat and piffissaq";
+CONTENTS="Libraries 1992-2002";
+CONTENTS[da]="Bibliotekernes bogbestand og udlån af bøger 1992-2002";
+CONTENTS[kl]="Atuagaateqarfiit atuagaataasa atortittagaasalu amerlassusiat 1992-2001";
+UNITS="Number of books";
+UNITS[da]="Antal bøger";
+UNITS[kl]="Atuakkat amerlassusaat";
+STUB="municipality";
+STUB[da]="kommune";
+STUB[kl]="kommune";
+HEADING="stock/circulation","time";
+HEADING[da]="bestand/udlån","tid";
+HEADING[kl]="atuagaatit/atoritat","piffissaq";
+VALUES("municipality")="Total","Nanortalik","Qaqortoq","Narsaq","Ivittuut","Paamiut","Nuuk",
+"Maniitsoq","Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq",
+"Uummannaq","Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES[da]("kommune")="Grønland i alt","Nanortalik","Qaqortoq","Narsaq","Ivittuut","Paamiut",
+"Nuuk","Maniitsoq","Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq",
+"Uummannaq","Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES[kl]("kommune")="Katillugit","Nanortalik","Qaqortoq","Narsaq","Ivittuut","Paamiut","Nuuk",
+"Maniitsoq","Sisimiut","Kangaatsiaq","Aasiaat","Qasigiannguit","Ilulissat","Qeqertarsuaq",
+"Uummannaq","Upernavik","Qaanaaq","Ammassalik","Illoqqortoormiut";
+VALUES("stock/circulation")="Total book stock","Circulation";
+VALUES[da]("bestand/udlån")="Samlet bogbestand","Udlån";
+VALUES[kl]("atuagaatit/atoritat")="Atuagaatit katillugit","Atoritat";
+VALUES("time")="1992","1994","1996","1997","1998","1999","2000","2001","2002";
+VALUES[da]("tid")="1992","1994","1996","1997","1998","1999","2000","2001","2002";
+VALUES[kl]("piffissaq")="1992","1994","1996","1997","1998","1999","2000","2001","2002";
+CODES("municipality")="000","921","917","923","913","905","909","925","911","919","903","901",
+"915","927","928","929","941","951","953";
+CODES[da]("kommune")="000","921","917","923","913","905","909","925","911","919","903","901","915",
+"927","928","929","941","951","953";
+CODES[kl]("kommune")="000","921","917","923","913","905","909","925","911","919","903","901","915",
+"927","928","929","941","951","953";
+MAP("municipality")="Greenland_municipality";
+MAP[da]("kommune")="Greenland_municipality";
+MAP[kl]("kommune")="Greenland_municipality";
+LAST-UPDATED="20040421 07:49";
+CONTACT="Bolatta Vahl, BOVA@stat.gl";
+CONTACT[da]="Bolatta Vahl, BOVA@stat.gl";
+CONTACT[kl]="Bolatta Vahl, BOVA@stat.gl";
+SOURCE="The National library";
+SOURCE[da]="Landsbilioteket";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTE="The following are estimated from the nearest statement: #Nanortalik: Total book stock: 1992. Circulation: 1992. #Ivittuut: Total book stock: 1994, 1996 og 1997. #Paamiut: Total book stock: 1992 og 1994. Circulation: 1997. #Nuuk: Total book stock: "
+"1994. Circulation: 1992 og 1994. #Kangaatsiaq: Total book stock: 1997. Circulation: 1997, 1998 and 2001. #Aasiaat: Total book stock: 1994. #Qasigiannguit: Total book stock: 1994 og 1996. Circulation: 1994 og 1996. #Qeqertarsuaq: Total book stock: 1994. #"
+"Qaanaaq: Total book stock: 1997. #Illoqqortoormiut: Total book stock: 1996. Circulation: 1996 og 1997.";
+NOTE[da]="Føglende er anslået ud fra nærmeste opgørelse: #Nanortalik: Samlet bogbestand: 1992. Udlån: 1992. #Ivittuut: Samlet bogbestand: 1994, 1996 og 1997. #Paamiut: Samlet bogbestand: 1992 og 1994. Udlån: 1997. #Nuuk: Samlet bogbestand: 1994. Udlån: "
+"1992 og 1994. #Kangaatsiaq: Samlet bogbestand: 1997. Udlån: 1997, 1998 og 2001. #Aasiaat: Samlet bogbestand: 1994. #Qasigiannguit: Samlet bogbestand: 1994 og 1996. Udlån: 1994 og 1996. #Qeqertarsuaq: Samlet bogbestand: 1994. #Qaanaaq: Samlet bogbestand: "
+"1997. #Illoqqortoormiut: Samlet bogbestand: 1996. Udlån: 1996 og 1997.";
+NOTE[kl]="Føglende er anslået ud fra nærmeste opgørelse: #Nanortalik: Samlet bogbestand: 1992. Udlån: 1992. #Ivittuut: Samlet bogbestand: 1994, 1996 og 1997. #Paamiut: Samlet bogbestand: 1992 og 1994. Udlån: 1997. #Nuuk: Samlet bogbestand: 1994. Udlån: "
+"1992 og 1994. #Kangaatsiaq: Samlet bogbestand: 1997. Udlån: 1997, 1998 og 2001. #Aasiaat: Samlet bogbestand: 1994. #Qasigiannguit: Samlet bogbestand: 1994 og 1996. Udlån: 1994 og 1996. #Qeqertarsuaq: Samlet bogbestand: 1994. #Qaanaaq: Samlet bogbestand: "
+"1997. #Illoqqortoormiut: Samlet bogbestand: 1996. Udlån: 1996 og 1997.";
+DATA=
+471493 440544 545286 543530 606679 482576 415641 ".." ".." 402942 477604 473990 462719 423561 349216 264836 ".." ".." 
+27106 27106 39517 35824 36947 37327 ".." 55432 41280 20498 20498 28381 40601 14968 15614 ".." 8051 6228 
+28856 25875 29682 28545 28516 30924 28485 9505 10989 32657 41119 43520 49022 26703 25415 16860 15765 ".." 
+15997 25254 19745 20033 20474 20708 21185 18700 16534 10982 35366 22569 21650 20587 38374 ".." 19911 25502 
+7536 7536 7536 7536 7118 7085 7010 7010 7022 2046 4744 5639 5534 3738 4300 4823 3288 4265 
+38557 38557 38557 31629 24067 25405 25280 7315 21813 30796 30796 30796 29052 24874 27485 ".." 20177 12745 
+65047 65047 145231 147853 197663 135000 137992 ".." 137260 102396 102396 102396 100924 142435 ".." 98993 98225 91627 
+38625 37548 40715 41989 42676 30750 ".." ".." ".." 34943 38050 44225 43405 48188 42451 ".." ".." 36380 
+43157 44428 41891 44237 45529 45996 55520 14773 ".." 39329 37161 40262 36796 42866 34358 27168 33224 ".." 
+5125 9972 4723 4723 21273 ".." ".." 6757 7824 8893 11336 10682 10682 14112 ".." ".." 7968 ".." 
+39974 39974 23000 40851 45757 ".." ".." 23671 25216 22823 23088 23600 22337 ".." 36714 ".." 51402 6339 
+17962 17962 17962 14757 15051 15589 13684 3402 14061 5291 5291 5291 7283 4763 13531 5826 10856 23104 
+35584 12585 32831 26285 34211 31029 32491 34417 56501 23263 31331 34797 33573 16992 32872 34260 36539 39927 
+11480 11480 16756 11443 10996 11160 10815 10815 10376 6273 10472 10756 7107 5481 11160 15573 2860 4565 
+30606 20577 19882 19971 20193 20910 21477 ".." ".." 20336 30788 18338 19395 19091 19779 28386 18307 ".." 
+17425 10534 16636 16211 12249 25527 23861 24648 14792 9378 14718 6007 8515 2853 10406 9171 9795 6029 
+16073 16693 17085 17085 7968 8192 ".." ".." ".." 9347 9205 7998 6074 5727 8202 ".." ".." ".." 
+26083 24487 28608 30487 31252 32044 32625 32600 35256 22763 28658 36146 18182 27429 25250 20207 17806 ".." 
+6300 4929 4929 4071 4739 4930 5216 ".." ".." 928 2587 2587 2587 2754 3305 3569 ".." ".."; 

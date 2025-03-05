@@ -1,0 +1,100 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20130416 09:00";
+NEXT-UPDATE="20190727 09:00";
+MATRIX="ESX2AGB2000";
+AGGREGALLOWED=YES;
+AUTOPEN=NO;
+SUBJECT-CODE="ES";
+SUBJECT-AREA="Businesses";
+SUBJECT-AREA[da]="Erhverv";
+SUBJECT-AREA[kl]="Inuussutissarsiorneq";
+COPYRIGHT=YES;
+DESCRIPTION="Number of businesses by operating mode, (DISCONTINUED)";
+DESCRIPTION[da]="Antal virksomheder efter driftform, (AFSLUTTET)";
+DESCRIPTION[kl]="Suliffeqarfiit amerlassusaat ingerlatseriaaseq, (NAAVOQ)";
+TITLE="Number of businesses by operating mode, calculation variable and time";
+TITLE[da]="Antal virksomheder efter driftform, opgørelsesvariabel og tid";
+TITLE[kl]="Suliffeqarfiit amerlassusaat kingorna ingerlatseriaaseq, "
+"naatsorsuusiussaq aamma piffissaq";
+CONTENTS="Number of businesses";
+CONTENTS[da]="Antal virksomheder";
+CONTENTS[kl]="Suliffeqarfiit amerlassusaat";
+UNITS="Number of businesses, Aggregate salaries and shares, in million DKK, "
+"Average salaries and shares, in million DKK";
+UNITS[da]="Antal virksomheder, Lønsum i mio. kr., Gennemsnitlig lønsum i mio. kr.";
+UNITS[kl]="Suliffeqarfiit amerlassusaat, Akissarsialiussat katillugit, mio. kr, "
+"Agguaqatigiissillugu akissarsialiussat, mio. kr";
+CONTACT="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[da]="Najaaraq Christiansen, nakr@stat.gl";
+CONTACT[kl]="Najaaraq Christiansen, nakr@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+STUB="operating mode";
+STUB[da]="driftform";
+STUB[kl]="ingerlatseriaaseq";
+HEADING="calculation variable","time";
+HEADING[da]="opgørelsesvariabel","tid";
+HEADING[kl]="naatsorsuusiussaq","piffissaq";
+CONTVARIABLE="calculation variable" ;
+CONTVARIABLE[da]="opgørelsesvariabel" ;
+CONTVARIABLE[kl]="naatsorsuusiussaq" ;
+VALUES("operating mode")="Proprietorship","Limited companies","Other types of companies",
+"Funds etc.","Foreign branches","No information given","Total";
+VALUES[da]("driftform")="Enkeltmandsvirksomheder","Aktieselskaber","Øvrige selskabstyper",
+"Fonde m.v.","Udenlandske filialer","Uoplyst","Total";
+VALUES[kl]("ingerlatseriaaseq")="Kisimiilluni ingerlatsiviit","Piginneqatigiilluni ingerlatsiviit",
+"Ingerlatseriaatsit allat","Aningaasaateqarfiit il.il.","Nunanit allamiunit pigineqartut",
+"Paasissutissartaqanngitsut","katillugit";
+VALUES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+TIMEVAL("time")=TLIST(A1,"2008"-"2016");
+TIMEVAL[da]("tid")=TLIST(A1,"2008"-"2016");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2008"-"2016");
+VALUES("calculation variable")="Number of businesses","Aggregate salaries and shares, in million DKK",
+"Average salaries and shares, in million DKK";
+VALUES[da]("opgørelsesvariabel")="Antal virksomheder","Lønsum i mio. kr.","Gennemsnitlig lønsum i mio. kr.";
+VALUES[kl]("naatsorsuusiussaq")="Suliffeqarfiit amerlassusaat","Akissarsialiussat katillugit, mio. kr",
+"Agguaqatigiissillugu akissarsialiussat, mio. kr.";
+CODES("operating mode")="1","2","3","4","5","6","7";
+CODES[da]("driftform")="1","2","3","4","5","6","7";
+CODES[kl]("ingerlatseriaaseq")="1","2","3","4","5","6","7";
+CODES("time")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[da]("tid")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES[kl]("piffissaq")="2008","2009","2010","2011","2012","2013","2014","2015","2016";
+CODES("calculation variable")="Totala_n","Totala_sum","Totala_mean";
+CODES[da]("opgørelsesvariabel")="Totala_n","Totala_sum","Totala_mean";
+CODES[kl]("naatsorsuusiussaq")="Totala_n","Totala_sum","Totala_mean";
+DECIMALS=2;
+SHOWDECIMALS=2;
+LAST-UPDATED="20180727 09:00";
+ELIMINATION("operating mode")=YES;
+ELIMINATION[da]("driftform")=YES;
+ELIMINATION[kl]("ingerlatseriaaseq")=YES;
+DATA=
+2951.00 2853.00 2790.00 2845.00 2991.00 3055.00 3017.00 3028.00  
+3146.00 630.00 612.20 667.20 751.30 843.80 845.10 860.30 903.50  
+1038.33 0.20 0.21 0.24 0.26 0.28 0.28 0.29 0.30  
+0.33 166.00 161.00 158.00 157.00 162.00 160.00 151.00 138.00  
+137.00 2964.00 2833.30 2869.10 2981.90 3186.20 3234.10 2765.60 2992.00  
+3160.17 17.90 17.60 18.16 18.99 19.67 20.21 18.32 21.68  
+23.07 527.00 506.00 524.00 534.00 572.00 573.00 580.00 615.00  
+637.00 1151.00 1180.40 1253.60 1304.80 1348.80 1329.70 1284.00 1441.50  
+1549.83 2.20 2.33 2.39 2.44 2.36 2.32 2.21 2.34  
+2.43 152.00 158.00 154.00 162.00 167.00 171.00 177.00 176.00  
+174.00 463.00 489.70 498.80 517.30 530.90 539.70 558.10 571.20  
+595.13 3.00 3.10 3.24 3.19 3.18 3.16 3.15 3.25  
+3.42 19.00 17.00 65.00 86.00 55.00 48.00 31.00 25.00  
+31.00 116.00 78.90 225.30 427.60 212.10 100.90 44.70 36.60  
+45.57 6.10 4.64 3.47 4.97 3.86 2.10 1.44 1.46  
+1.47 80.00 80.00 87.00 85.00 77.00 70.00 61.00 73.00  
+87.00 117.00 105.10 100.70 97.50 96.10 89.40 91.70 102.20  
+121.34 1.50 1.31 1.16 1.15 1.25 1.28 1.50 1.40  
+1.39 3895.00 3775.00 3778.00 3869.00 4024.00 4077.00 4017.00 4055.00  
+4212.00 5441.00 5299.60 5614.80 6080.40 6217.90 6138.80 5604.40 6046.90  
+6510.38 1.40 1.40 1.49 1.57 1.55 1.51 1.40 1.49  
+1.55;

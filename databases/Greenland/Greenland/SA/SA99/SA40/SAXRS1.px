@@ -1,0 +1,83 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="iso-8859-15";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20120417 09:00";
+NEXT-UPDATE="20190607 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=1;
+SHOWDECIMALS=0;
+MATRIX="SAXRS1";
+SUBJECT-CODE="SA";
+SUBJECT-AREA="Statistical Yearbook";
+SUBJECT-AREA[da]="Statistisk Årbog";
+SUBJECT-AREA[kl]="Ukiumoortumik paasissutissat";
+COPYRIGHT=YES;
+DESCRIPTION="Raw materials by type, specification and time <em>[SAERS1]</em>";
+DESCRIPTION[da]="Råstoffer efter type, art og tid <em>[SADRS1]</em>";
+DESCRIPTION[kl]="Atortussiassat - typi, suussuseq, piffissaq <em>[SANRS1]</em>";
+TITLE="Raw materials by type, specification and time";
+TITLE[da]="Råstoffer efter type, art og tid";
+TITLE[kl]="Atortussiassat efter typi, suussuseq og piffissaq";
+CONTENTS="Raw materials";
+CONTENTS[da]="Råstoffer";
+CONTENTS[kl]="Atortussiassat";
+UNITS="Numbers and amounts";
+UNITS[da]="Antal og beløb";
+UNITS[kl]="Amerlassuseq aamma aningaasat amerlassusaat";
+STUB="type","specification";
+STUB[da]="type","art";
+STUB[kl]="typi","suussuseq";
+HEADING="time";
+HEADING[da]="tid";
+HEADING[kl]="piffissaq";
+VALUES("type")="Research permits (issued)","Research expenses in millions",
+"Prospecting permits (active)","Exploitation permits (issued)";
+VALUES[da]("type")="Efterforskningstilladelser (udstedte)","Efterforskningsudgifter i millioner",
+"Forundersøgelser (aktive)","Udnyttelsestilladelser (udstedte)";
+VALUES[kl]("typi")=
+"Atuinissaq siunertaralugu misissuinissamut akuersissut (uppernarsaat atsiugaq)",
+"Atuinissaq siunertaralugu misissuinermi aningaasartuutit miliuuninngorlugit",
+"Misissueqqaarnerit (ingerlasut)","Iluaqutiginninnissamut akuersissut (uppernarsaat atsiugaq)";
+VALUES("specification")="Oil","Minerals";
+VALUES[da]("art")="Olie","Mineraler";
+VALUES[kl]("suussuseq")="Uulia","Atortussiassaq";
+VALUES("time")="1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007",
+"2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[da]("tid")="1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006",
+"2007","2008","2009","2010","2011","2012","2013","2014","2015","2016";
+VALUES[kl]("piffissaq")="1996","1997","1998","1999","2000","2001","2002","2003","2004","2005",
+"2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016";
+TIMEVAL("time")=TLIST(A1),"1996","1997","1998","1999","2000","2001","2002","2003","2004","2005",
+"2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016";
+TIMEVAL[da]("tid")=TLIST(A1),"1996","1997","1998","1999","2000","2001","2002","2003","2004","2005",
+"2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016";
+TIMEVAL[kl]("piffissaq")=TLIST(A1),"1996","1997","1998","1999","2000","2001","2002","2003","2004",
+"2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016";
+PRECISION("type","Research expenses in millions")=1;
+PRECISION[da]("type","Efterforskningsudgifter i millioner")=1;
+PRECISION[kl]("typi","Atuinissaq siunertaralugu misissuinermi aningaasartuutit miliuuninngorlugit")=1;
+LAST-UPDATED="20181105 09:00";
+CONTACT="Bolatta Vahl, BOVA@stat.gl";
+CONTACT[da]="Bolatta Vahl, BOVA@stat.gl";
+CONTACT[kl]="Bolatta Vahl, BOVA@stat.gl";
+SOURCE="The Bureau of Minerals and Petroleum";
+SOURCE[da]="Råstofdirektoratet";
+SOURCE[kl]="Aatsitassanut Ikummatissanullu Pisortaqarfik";
+INFOFILE="";
+INFOFILE[da]="RSD201321/p1";
+INFOFILE[kl]="";
+NOTE="Research expenses are in USD for oil and in DKK for minerals.";
+NOTE[da]="Efterforskningsudgifterne er opgivet i USD for olie og i DKK for mineraler.";
+NOTE[kl]="Atuinissaq siunertaralugu misissuinermi aningaasartuutit uuliamut USD-tut nalunaagaapput atortussiassallu DKK-mut nalunaagaallutik.";
+VALUENOTE[da]("tid","2012")="Nye tal";
+DATA=
+"." "." "." "." "." "." 1 1 1 2 2 6 11 13 20 20 20 22 23 18 16 
+60 57 41 26 24 19 17 19 22 33 29 63 67 71 73 77 79 76 67 70 56 
+"." "." "." "." "." "." 0.9 2.4 2.9 2.9 1.9 9.5 115.5 102 501.7 823.9 219.8 106.4 26.8 64.1 ".." 
+67.5 105 109 46.9 103.4 111.8 20.8 44.9 66.2 191 135 471 497 300 522.3 711.3 518.9 305.7 235.8 167.6 ".." 
+"." "." "." "." "." "." 4 7 9 9 7 11 17 23 27 25 27 18 20 16 16 
+22 24 13 14 15 6 6 11 12 12 12 14 14 11 21 25 25 22 17 17 11 
+"." "." "." "." "." "." "." "." "." "." "." "." "." "." "." "." "." ".." ".." ".." ".." 
+"." "." "." "." "." "." "." 1 1 2 2 2 3 4 4 4 4 5 6 6 7; 

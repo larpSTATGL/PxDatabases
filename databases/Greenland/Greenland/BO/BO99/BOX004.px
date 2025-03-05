@@ -1,0 +1,75 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20100514 09:00";
+NEXT-UPDATE="20100809 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="BOX004";
+SUBJECT-CODE="BO";
+SUBJECT-AREA="Housing";
+SUBJECT-AREA[da]="Boliger";
+SUBJECT-AREA[kl]="Ineqarneq";
+COPYRIGHT=YES;
+DESCRIPTION="Dwellings by ownership, time and place <em>[BOE004]</em>";
+DESCRIPTION[da]="Antal boliger pr. 1. januar efter ejerforhold, tid og bosted <em>[BOD004]</em>";
+DESCRIPTION[kl]="1. januar inissiat amerlassusii by piginnittunut tunngasut, piffissaq and najugaqarfik <em>[BON004]</em>";
+TITLE="Dwellings by ownership, time and place";
+TITLE[da]="Antal boliger pr. 1. januar efter ejerforhold, tid og bosted";
+TITLE[kl]="1. januar inissiat amerlassusii by piginnittunut tunngasut, piffissaq and najugaqarfik";
+CONTENTS="Dwellings";
+CONTENTS[da]="Antal boliger pr. 1. januar";
+CONTENTS[kl]="1. januar inissiat amerlassusii";
+UNITS="Number of dwelling";
+UNITS[da]="Antal boliger";
+UNITS[kl]="Inissiat amerlassusii";
+STUB="ownership";
+STUB[da]="ejerforhold";
+STUB[kl]="piginnittunut tunngasut";
+HEADING="time","place";
+HEADING[da]="tid","bosted";
+HEADING[kl]="piffissaq","najugaqarfik";
+VALUES("ownership")="Total","State-owned","Governmental property","Municipal property",
+"Private property","Unknown","Dorm rooms and elderly";
+VALUES[da]("ejerforhold")="I alt","Statsejet","Hjemmestyreejet","Kommunalt ejet","Privat ejet",
+"Uoplyst","Kollegier og alderdomshjemme";
+VALUES[kl]("piginnittunut tunngasut")="Katillugit","Naalagaaffimmit pigineqartoq",
+"Namminersornerullutik Oqartussanik pigineqartoq","Kommunimit pigineqartoq",
+"Inuinnarmit pigineqartoq","Paasissutissat nalunaarsorneqanngitsut","Kollegiat aamma utoqqaat illui";
+VALUES("time")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010";
+VALUES[da]("tid")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010";
+VALUES[kl]("piffissaq")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009",
+"2010";
+VALUES("place")="Total","Town","Village";
+VALUES[da]("bosted")="Hele Grønland","By","Bygd";
+VALUES[kl]("najugaqarfik")="Nuna tamakkerlugu","Illoqarfik","Nunaqarfik";
+TIMEVAL("time")=TLIST(A1,"2000"-"2009");
+TIMEVAL[da]("tid")=TLIST(A1,"2000"-"2009");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"2000"-"2009");
+ELIMINATION("ownership")="Total";
+ELIMINATION[da]("ejerforhold")="I alt";
+ELIMINATION[kl]("piginnittunut tunngasut")="Katillugit";
+ELIMINATION("place")="Total";
+LAST-UPDATED="20100809 09:00";
+CONTACT="Statistics Greenland, stat@stat.gl";
+CONTACT[da]="Grønlands Statistik, stat@stat.gl";
+CONTACT[kl]="Naatsorsueqqissaartarfik, stat@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTE="*The figures on elderly homes from 2008 are not completely accurate. As the figures from municipalities was not distributed in town and village!";
+NOTE[da]="Tallene vedr. kollegier og alderdomshjemme vil for 2009 og fremover KUN være oplysninger fra 'de gamle kommuner' og ikke fra bygderne.";
+NOTE[kl]="* Kisitsisit kollegianut amma utoqqaat illuinut tunngasut 2009-imiit tamaallaat 'kommunitoqqaniit' takutinneqartassapput, nunaqarfinniinngitsoq.";
+NOTEX="Archieved";
+NOTEX[da]="Arkiveret - opdateres ikke mere";
+NOTEX[kl]="Toqqorsivik - opdateres ikke mere";
+DATA=
+21998 18527 3471 22188 18715 3473 22845 19344 3501 23039 19423 3616 23270 19629 3641 23676 19912 3764 23880 20115 3765 24424 20622 3802 22371 18720 3651 22833 19163 3670 23112 19402 3710 
+182 135 47 182 135 47 182 135 47 182 135 47 182 135 47 182 135 47 183 136 47 183 136 47 182 135 47 182 135 47 182 135 47 
+7732 7550 182 7737 7555 182 7759 7577 182 7786 7604 182 7892 7710 182 7892 7710 182 7892 7710 182 7893 7710 183 7896 7710 186 7969 7783 186 7973 7796 177 
+4722 3992 730 4828 4088 740 4959 4217 742 5060 4313 747 5094 4340 754 5139 4382 757 5199 4441 758 5267 4480 787 5318 4522 796 5402 4605 797 5495 4789 706 
+5459 3434 2025 5576 3536 2040 5746 3683 2063 5882 3800 2082 5968 3868 2100 6154 4043 2111 6287 4169 2118 6443 4318 2125 6686 4525 2161 6991 4816 2175 7173 4965 2208 
+2280 1818 462 2282 1818 464 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 2289 1822 467 
+1623 1598 25 1583 1583 "-" 1910 1910 "-" 1840 1749 91 1845 1754 91 2020 1820 200 2030 1837 193 2349 2156 193 2565 2369 196 2858 2858 "-" 2680 2575 105; 

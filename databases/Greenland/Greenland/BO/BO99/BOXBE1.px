@@ -1,0 +1,104 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+LANGUAGES="en","da","kl";
+CREATION-DATE="20100514 09:00";
+NEXT-UPDATE="20100809 09:00";
+UPDATE-FREQUENCY="Annually";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="BOXBE1";
+SUBJECT-CODE="BO";
+SUBJECT-AREA="Housing";
+SUBJECT-AREA[da]="Boliger";
+SUBJECT-AREA[kl]="Ineqarneq";
+COPYRIGHT=YES;
+DESCRIPTION="New buildings by type, ownership and time <em>[BOEBE1]</em>";
+DESCRIPTION[da]="Boligtilgangen efter type, ejerforhold og tid <em>[BODBE1]</em>";
+DESCRIPTION[kl]="Init amerlassussii by suussuseq, piginnittunut <em>[BONBE1]</em>";
+TITLE="New buildings by type, ownership and time";
+TITLE[da]="Boligtilgangen efter type, ejerforhold og tid";
+TITLE[kl]="Init amerlassussii by suussuseq, piginnittunut tunngasut and piffissaq";
+CONTENTS="New buildings";
+CONTENTS[da]="Boligtilgangen";
+CONTENTS[kl]="Init amerlassussii";
+UNITS="Number of dwellings";
+UNITS[da]="Antal boliger";
+UNITS[kl]="Inissiat amerlassusii";
+STUB="type","ownership";
+STUB[da]="type","ejerforhold";
+STUB[kl]="suussuseq","piginnittunut tunngasut";
+HEADING="time";
+HEADING[da]="tid";
+HEADING[kl]="piffissaq";
+VALUES("type")="Unknown","Employees","60/40 or 80/20","10/40/50-settlement",
+"Housing providing loan*","Home build housings*","Cooperative housings","Private",
+"Eksperimental construction","Municipal constrution kit","Total";
+VALUES[da]("type")="Uoplyst","Personale","60/40eller80/20","10/40/50-ordningen","BSU",
+"Selvbyggerboliger","Andelsboliger","Privat","Forsøgsbyggeri","Kommunale byggesæt","I alt";
+VALUES[kl]("suussuseq")="Paasissutissat nalunaarsorneqanngitsut","Sulisorisat","60/40 imal. 80/20",
+"Aaqqissuusineq 10/40/50","BSU","Nammineerluni illuliat","Piginneqatigiilluni inissiat",
+"Inuinnarnut","Misileraalluni sanaartorneq","Kommunimit illuliassat","Katillugit";
+VALUES("ownership")="Municipal property","Governmental property","Private property";
+VALUES[da]("ejerforhold")="Kommunalt ejet","Hjemmestyreejet","Privat ejet";
+VALUES[kl]("piginnittunut tunngasut")="Kommunimut pigineqartoq","Nam. Oqartus. Pigineqartoq",
+"Inuinnarmit pigineqartoq";
+VALUES("time")="1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004",
+"2005","2006","2007","2008","2009";
+VALUES[da]("tid")="1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003",
+"2004","2005","2006","2007","2008","2009";
+VALUES[kl]("piffissaq")="1993","1994","1995","1996","1997","1998","1999","2000","2001","2002",
+"2003","2004","2005","2006","2007","2008","2009";
+TIMEVAL("time")=TLIST(A1,"1993"-"2009");
+TIMEVAL[da]("tid")=TLIST(A1,"1993"-"2009");
+TIMEVAL[kl]("piffissaq")=TLIST(A1,"1993"-"2009");
+ELIMINATION("type")="Total";
+ELIMINATION[da]("type")="I alt";
+ELIMINATION[kl]("suussuseq")="Katillugit";
+LAST-UPDATED="20100809 09:00";
+CONTACT="Statistics Greenland, stat@stat.gl";
+CONTACT[da]="Grønlands Statistik, stat@stat.gl";
+CONTACT[kl]="Naatsorsueqqissaartarfik, stat@stat.gl";
+SOURCE="Statistics Greenland";
+SOURCE[da]="Grønlands Statistik";
+SOURCE[kl]="Naatsorsueqqissaartarfik";
+NOTE="";
+NOTE[da]="Note: Optælling af ultimo år";
+NOTE[kl]="";
+NOTEX="Archieved";
+NOTEX[da]="Arkiveret - opdateres ikke mere";
+NOTEX[kl]="Toqqorsivik - opdateres ikke mere";
+DATA=
+"-" "-" "-" 1 13 "-" 6 "-" "-" "-" "-" 2 "-" "-" 1 "-" "-" 
+"-" "-" "-" "-" 2 "-" "-" "-" "-" "-" 93 "-" "-" 1 "-" "-" "-" 
+"-" "-" "-" 1 7 "-" "-" "-" 1 "-" "-" "-" "-" "-" 1 "-" "-" 
+1 "-" "-" 1 1 "-" "-" "-" 13 "-" "-" "-" 6 "-" 1 "-" "-" 
+36 "-" 1 3 "-" 8 2 4 "-" "-" 1 "-" "-" "-" "-" "-" "-" 
+1 "-" 1 2 "-" 1 2 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+253 77 100 149 13 74 131 84 82 31 24 34 37 62 62 56 77 
+"-" "-" 1 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 73 "-" 
+"-" "-" "-" 1 "-" "-" "-" "-" 2 1 "-" 1 2 "-" "-" 1 123 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 9 "-" 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" "-" "-" "-" "-" "-" 3 4 6 6 52 80 35 179 183 "-" 
+5 5 6 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+32 11 10 14 3 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 1 "-" 
+6 1 1 5 8 7 4 6 1 2 "-" 2 3 "-" "-" "-" 3 
+"-" "-" "-" "-" "-" "-" "-" "-" 3 1 "-" "-" "-" "-" 4 "-" 3 
+119 102 113 62 55 38 57 41 42 41 29 24 11 12 44 20 27 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+51 51 8 20 "-" 6 "-" 32 38 46 36 93 38 98 81 18 "-" 
+"-" "-" "-" 2 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" "-" "-" "-" "-" "-" "-" 19 26 12 "-" "-" "-" "-" "-" "-" 
+"-" 1 2 1 5 6 14 41 83 42 15 17 5 21 4 4 29 
+1 "-" 15 9 1 1 "-" 2 "-" "-" "-" "-" 12 "-" 1 "-" "-" 
+"-" "-" "-" "-" 1 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 1 "-" "-" 
+27 3 6 6 8 16 11 14 35 68 10 7 2 6 2 4 11 
+"-" "-" "-" "-" "-" "-" "-" 1 "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+"-" "-" 1 "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" 
+293 86 128 172 43 98 152 106 118 101 34 45 60 68 67 69 91 
+"-" "-" 1 "-" 3 "-" "-" 1 22 27 105 "-" "-" 1 4 73 4 
+203 165 134 99 70 50 71 117 170 136 86 187 136 166 310 227 179; 
